@@ -56,17 +56,18 @@ export const FooterSection = (): JSX.Element => {
     {
       src: instagram,
       alt: "Instagram",
+    
     },
     { src: linkedIn , alt: "LinkedIn" },
   ];
 
   return (
-    <footer className="flex flex-col items-center  pt-[100px] pb-[56px] px-[115.5px] max-[1300px]:px-[80px] max-[1100px]:px-[40px] max-[1100px]:pt-[60px] max-[1000px]:pt-[40px] max-[1000px]:px-[20px] bg-white w-full">
+    <footer className="flex flex-col items-center  pt-[100px] pb-[56px] px-[115.5px] max-[1300px]:px-[80px] max-[1100px]:px-[40px] max-[1100px]:pt-[60px] max-[1000px]:pt-[40px] max-[1000px]:px-[20px] max-[680px]:pb-[20px]  bg-white w-full">
 
       <div className="flex flex-col items-center gap-14 w-full max-[680px]:gap-6 ">
 
 
-        <div className="flex items-center justify-between w-full gap-[20px] max-[1100px]:flex-col max-[1100px]:items-start">
+        <div className="flex items-center justify-between w-full gap-[72px] max-[1300px]:gap-[20px] max-[1100px]:flex-col max-[1100px]:items-start">
           {/* Left column - Logo, description and subscription */}
           <div className="flex flex-col items-start gap-8">
             {/* Logo and description */}
@@ -100,7 +101,7 @@ export const FooterSection = (): JSX.Element => {
 
           {/* Right columns - Navigation links */}
           <div className="flex items-start w-full justify-between gap-14 max-[1000px]:flex-wrap max-[450px]:gap-10">
-            <div className="flex items-start gap-12 max-[1000px]:flex-wrap max-[450px]:gap-6">
+            <div className="flex items-start gap-12 max-[1300px]:gap-10 max-[1000px]:flex-wrap max-[450px]:gap-6">
               {/* Company links column */}
               <div className="flex flex-col items-start gap-4">
                 <div className="flex flex-col items-start gap-4">
@@ -150,11 +151,11 @@ export const FooterSection = (): JSX.Element => {
         {/* Bottom section with social icons and copyright */}
         <div className="flex items-center justify-between pt-10 pb-0 px-0 w-full border-t border-[#e7e8f1] max-[450px]:flex-col max-[450px]:items-start max-[450px]:gap-4 max-[450px]:pt-4">
           {/* Social media icons */}
-          <div className="flex items-center gap-8">
-            {socialIcons.map((icon, index) => (
+          <div className="flex items-center gap-8 justify-center h-[30px]">
+          {socialIcons.map((icon, index) => (
               <img
                 key={index}
-                className='w-6 h-6 object-contain'
+                className={`object-cover ${icon.alt === "Instagram" ? "w-[57px] h-[56px] mt-[25px] " : "w-6 h-6"}`}
                 alt={`Social media icon - ${icon.alt}`}
                 src={icon.src}
               />

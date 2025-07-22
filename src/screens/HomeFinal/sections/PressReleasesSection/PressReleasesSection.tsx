@@ -40,11 +40,11 @@ export const PressReleasesSection = (): JSX.Element => {
       <div className="flex flex-col items-center gap-8 relative">
         <div className="flex flex-col w-full max-w-[620px] items-center gap-4 relative">
           <div className="flex items-center flex-col gap-2 relative">
-            <div className="relative w-fit mt-[-1.00px] font-headings-heading-h7 font-[number:var(--headings-heading-h7-font-weight)] text-[#f4263e] text-[length:var(--headings-heading-h7-font-size)] text-center tracking-[var(--headings-heading-h7-letter-spacing)] leading-[var(--headings-heading-h7-line-height)] whitespace-nowrap [font-style:var(--headings-heading-h7-font-style)]">
+            <div className="relative w-full  font-headings-heading-h7 font-[number:var(--headings-heading-h7-font-weight)] text-[#f4263e] text-[length:var(--headings-heading-h7-font-size)] text-center tracking-[var(--headings-heading-h7-letter-spacing)] leading-[var(--headings-heading-h7-line-height)] whitespace-nowrap [font-style:var(--headings-heading-h7-font-style)]">
               Testimonials
             </div>
 
-            <h2 className="w-full max-w-[492px] [text-shadow:0px_2px_4px_#de294a0d] font-[number:var(--headings-heading-2-font-weight)] text-[#1f2559] text-[length:var(--headings-heading-2-font-size)] text-center tracking-[var(--headings-heading-2-letter-spacing)] leading-[var(--headings-heading-2-line-height)] relative font-headings-heading-2 [font-style:var(--headings-heading-2-font-style)] max-[1000px]:text-[36px]">
+            <h2 className="w-full max-w-[492px] [text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-2%] leading-[48px] relative font-headings-heading-2 [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] ">
               Don&apos;t take our word for it—hear from our clients!
             </h2>
           </div>
@@ -63,11 +63,11 @@ export const PressReleasesSection = (): JSX.Element => {
             >
               <CardContent className="p-0">
                 <div className="flex items-start flex-col gap-2 relative">
-                  <h3 className="w-[316px] mt-[-1.00px] font-bold text-[#1e2459] text-[22px] tracking-[-0.44px] leading-[33px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[380px]:w-full">
+                  <h3 className="w-[316px]  font-bold text-[#1e2459] text-[22px] tracking-[-0.32px] leading-[33px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[380px]:w-full">
                     {testimonial.title}
                   </h3>
 
-                  <p className="w-[321px] relative font-paragraph-default font-[number:var(--paragraph-default-font-weight)] text-neutral-colors500 text-[length:var(--paragraph-default-font-size)] tracking-[var(--paragraph-default-letter-spacing)] leading-[var(--paragraph-default-line-height)] [font-style:var(--paragraph-default-font-style)] max-[380px]:w-full">
+                  <p className="w-[321px] relative font-paragraph-default font-[number:var(--paragraph-default-font-weight)] text-[#62668A] text-[length:var(--paragraph-default-font-size)] tracking-[var(--paragraph-default-letter-spacing)] leading-[var(--paragraph-default-line-height)] [font-style:var(--paragraph-default-font-style)] max-[380px]:w-full">
                     {testimonial.description}
                   </p>
                 </div>

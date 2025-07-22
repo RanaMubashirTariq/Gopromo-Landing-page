@@ -12,7 +12,7 @@ import { ServicesOfferedSection } from "./sections/ServicesOfferedSection/Servic
 
 export const HomeFinal = (): JSX.Element => {
   return (
-<div className="flex flex-col w-full bg-white overflow-hidden mt-[120px] max-[1000px]:mt-[100px] max-[680px]:mt-[80px]">
+<div className="flex flex-col w-full bg-white overflow-hidden mt-[120px] max-[1000px]:mt-[100px] max-[780px]:mt-[70px]">
 <NavigationHeaderSection />
       <div id="hero">
         <HeroBannerSection />

@@ -23,7 +23,7 @@ export const NavigationHeaderSection = (): JSX.Element => {
   ];
 
   return (
-    <header className="fixed top-0 lef-0 z-50 shadow-md w-full bg-white pt-[32px] max-[680px]:pt-[20px] max-[680px]:pb-[20px] pl-[116px] pb-[34px] pr-[115px] max-[1300px]:pl-[80px] max-[1300px]:pr-[80px] max-[1100px]:pl-[40px] max-[1100px]:pr-[40px] max-[1000px]:pl-[20px] max-[1000px]:pr-[20px]">
+    <header className="fixed top-0 lef-0 z-50  w-full  backdrop-blur-sm border-b border-gray-100 pt-[32px] max-[780px]:pt-[20px] max-[780px]:pb-[20px] pl-[116px] pb-[34px] pr-[115px] max-[1300px]:pl-[80px] max-[1300px]:pr-[80px] max-[1100px]:pl-[40px] max-[1100px]:pr-[40px] max-[1000px]:pl-[20px] max-[1000px]:pr-[20px]">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -101,7 +101,7 @@ export const NavigationHeaderSection = (): JSX.Element => {
       {isMenuOpen && (
         <div className="max-[1000px]:block min-[1001px]:hidden mt-4">
           <NavigationMenu>
-            <NavigationMenuList className="flex flex-col gap-4 items-center">
+            <NavigationMenuList className="flex flex-col gap-4 items-center bg-white px-10">
               {menuItems.map((item) => (
                 <NavigationMenuItem key={item.target}>
                   <ScrollLink

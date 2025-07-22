@@ -73,29 +73,29 @@ export const HeroBannerSection = (): JSX.Element => {
         <div className="flex-col items-center gap-20 self-stretch w-full flex relative max-[680px]:gap-[50px]">
           {/* Background element */}
 
-          <div className="flex-col w-full max-w-[1027px] items-center gap-8 max-[680px]:gap-4 flex relative z-10">
+          <div className="flex-col w-full max-w-[1088px] items-center gap-8 max-[680px]:gap-4 flex relative z-10">
             <div className="inline-flex flex-col items-center gap-4 max-[1000px]:gap-2 relative">
               <div className="inline-flex items-center flex-col gap-2 relative ">
-                <div className="relative w-fit mt-[-1.00px] [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-primary-colorsaccent text-lg text-center tracking-[0] leading-[18px] whitespace-nowrap max-[500px]:text-[16px]">
+                <div className="relative w-full mt-[-1.00px] [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#f4263E] text-lg text-center tracking-[0] leading-[18px] whitespace-nowrap max-[500px]:text-[16px] max-[500px]:leading-[16px]">
                   Automation + Marketing Agency
                 </div>
 
-                <h1 className="w-full  [text-shadow:0px_2px_4px_#de294a0d] font-normal text-[56px] text-center leading-[68px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] shadow-other-text max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
-                  <span className="font-bold text-[#1e2459] tracking-[-0.63px] max-[1000px]:leading-[44px]">
+                <h1 className="w-full  font-bold text-[56px] tracking-[-2%] text-center leading-[68px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
+                  <span className="font-bold text-[#1F2559] tracking-[-2%] max-[1000px]:leading-[44px]">
                     Never Miss a Lead -{" "}
                   </span>
-                  <span className="font-bold text-[#007aff] tracking-[-0.63px] max-[1000px]:leading-[44px]">
+                  <span className="font-bold text-[#007aff] tracking-[-2%] max-[1000px]:leading-[44px]">
                     Ever
                     <br className="max-[680px]:hidden" />
                   </span>
-                  <span className="font-bold text-[#1e2459] tracking-[-0.63px] max-[1000px]:leading-[44px]">
+                  <span className="font-bold text-[#1F2559] tracking-[-2%] max-[1000px]:leading-[44px]">
                     {" "}
                     AI-Powered 24/7 Lead-Driving Machine
                   </span>
                 </h1>
               </div>
 
-              <p className="w-full max-w-[570px] text-base text-center tracking-[-0.16px] leading-[27px] relative [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668a]">
+              <p className="w-full max-w-[570px] text-base text-center tracking-[-0.16px] leading-[27px] relative [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A]">
                 Custom landing pages, mobile apps, AI chatbots &amp; CRM that
                 capture, engage and convert every local lead—24/7, fully
                 automated.
@@ -117,51 +117,35 @@ export const HeroBannerSection = (): JSX.Element => {
           </div>
 
           <img
-            className="relative w-full max-w-[1094.99px] h-auto z-10"
+            className="relative w-full max-w-[1094.99px] h-auto z-10 block align-top "
             alt="Dashboard"
             src={dashboard}
           />
         </div>
+                    
+                    {/* Marquee Tag */}
 
            
-                <div className="overflow-hidden w-full">
-          <div className="animate-marquee whitespace-nowrap flex gap-8 md:gap-[72px] relative">
-            {partnerLogos.map((logo, index) => (
-              <div key={index} className="flex items-center">
-                {logo.type === "text" && (
-                  <div className="inline-flex items-center gap-[6.95px]">
-                    <img
-                      className={`w-[${logo.iconWidth}] h-[${logo.iconHeight}] object-contain`}
-                      alt="Icon"
-                      src={logo.icon}
-                    />
-                    {logo.text}
-                  </div>
-                )}
-                {logo.type === "image" && (
-                  <div
-                    className={`relative flex items-center justify-center object-contain`}
-                    style={{ width: logo.width, height: logo.height }}
-                    
-                  >
-                    <img
-                    className="w-full h-full object-contain"
-                      alt={logo.alt}
-                      src={logo.src}
-                    />
-                  </div>
-                )}
-              </div>
-            ))}
-
-               
-               {/* Prt 2 */}
-                  
-
-          </div>
-
-              
+                    <div className="overflow-hidden w-full">
+                <div className="flex gap-[72px] whitespace-nowrap animate-marquee min-w-max">
+               {[...partnerLogos, ...partnerLogos, ...partnerLogos, ...partnerLogos, ...partnerLogos].map((logo, index) => (
+             <div key={index} className="flex items-center">
+        <div
+          className="relative flex items-center justify-center"
+          style={{ width: logo.width, height: logo.height }}
+        >
+          <img
+            className="w-full h-full object-contain"
+            alt={logo.alt}
+            src={logo.src}
+          />
         </div>
+      </div>
+    ))}
+  </div>
+                    </div>
+
+
 
 
       </div>

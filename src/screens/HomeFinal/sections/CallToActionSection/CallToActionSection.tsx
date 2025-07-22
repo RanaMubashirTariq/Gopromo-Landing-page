@@ -32,11 +32,11 @@ export const CallToActionSection = (): JSX.Element => {
 
               <div className="flex flex-col w-[372px] items-center gap-8 mt-4 max-[680px]:w-full">
                 <div className="flex items-center self-stretch w-full flex-col gap-2">
-                  <h4 className="self-stretch mt-[-1.00px] font-headings-heading-h4 font-[number:var(--headings-heading-h4-font-weight)] text-[#1e2459] text-[length:var(--headings-heading-h4-font-size)] text-center tracking-[var(--headings-heading-h4-letter-spacing)] leading-[var(--headings-heading-h4-line-height)] [font-style:var(--headings-heading-h4-font-style)]">
+                  <h4 className="self-stretch  font-headings-heading-h4 font-bold text-[#1e2459] text-[24px] text-center tracking-[-2%] leading-[33px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] ">
                     Get in touch today!
                   </h4>
 
-                  <p className="self-stretch text-center font-paragraph-default font-[number:var(--paragraph-default-font-weight)] text-neutral-colors500 text-[length:var(--paragraph-default-font-size)] tracking-[var(--paragraph-default-letter-spacing)] leading-[var(--paragraph-default-line-height)] [font-style:var(--paragraph-default-font-style)]">
+                  <p className="self-stretch text-center font-paragraph-default font-normal text-[#62668A] text-base tracking-[-1%] leading-[27px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] ">
                     Discuss your project needs. We&apos;re ready to help you
                     achieve your goals with expert strategies and tailored
                     solutions. Let&apos;s make it happen!
@@ -61,11 +61,11 @@ export const CallToActionSection = (): JSX.Element => {
 
               <div className="flex flex-col w-[345px] items-center gap-8 mt-4 max-[680px]:w-full">
                 <div className="inline-flex items-center flex-col gap-2">
-                  <h4 className="self-stretch mt-[-1.00px] font-headings-heading-h4 font-[number:var(--headings-heading-h4-font-weight)] text-[#1e2459] text-[length:var(--headings-heading-h4-font-size)] text-center tracking-[var(--headings-heading-h4-letter-spacing)] leading-[var(--headings-heading-h4-line-height)] [font-style:var(--headings-heading-h4-font-style)]">
+                  <h4 className="self-stretch  font-headings-heading-h4 font-bold text-[#1e2459] text-[24px] text-center tracking-[-2%] leading-[33px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]">
                     Browse our Packages
                   </h4>
 
-                  <p className="w-[345px] font-paragraph-default font-[number:var(--paragraph-default-font-weight)] text-neutral-colors500 text-[length:var(--paragraph-default-font-size)] text-center tracking-[var(--paragraph-default-letter-spacing)] leading-[var(--paragraph-default-line-height)] [font-style:var(--paragraph-default-font-style)] max-[680px]:w-full">
+                  <p className="w-[345px] self-stretch text-center font-paragraph-default font-normal text-[#62668A] text-base tracking-[-1%] leading-[27px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[680px]:w-full">
                     Explore packages tailored to your needs and budget. Find the
                     perfect fit today!
                   </p>

@@ -96,20 +96,20 @@ export const ServicesOfferedSection = (): JSX.Element => {
     <section className=" w-full py-[100px] px-[115.5px] flex justify-center max-[1300px]:px-[80px] max-[1100px]:py[60px] max-[1100px]:px-[40px] max-[1000px]:px-[20px] max-[1000px]:py-[40px] ">
       <div className="flex flex-col items-center gap-10 ">
         {/* Section Header */}
-        <div className="flex flex-col w-full max-w-[620px] items-center gap-4">
+        <div className="flex flex-col w-full  items-center gap-4">
           <div className="inline-flex items-center flex-col gap-2">
-            <div className="relative w-full [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#f4263E] text-[18px] text-center tracking-[0] leading-[18px] whitespace-nowrap max-[680px]:text-[16px]">
+            <div className="relative w-full [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#f4263E] text-[18px] text-center tracking-[0] leading-[18px] whitespace-nowrap max-[680px]:text-[16px] max-[680px]:leading-[16px]  ">
               Our Services
             </div>
 
-            <h2 className="w-full max-w-[617.71px] [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.76px] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] shadow-other-text max-[1000px]:text-[36px]">
+            <h2 className="w-full [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-2%] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
               All the Tools to Win Locally  Online
             </h2>
           </div>
 
-          <p className="text-center [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A] text-base tracking-[-0.16px] leading-[27px]">
+          <p className="w-full max-w-[620px] text-center [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A] text-base tracking-[-0.16px] leading-[27px]">
             One integrated suite-landing pages, apps, CRM, chatbots &amp; social
-            automation—designed to attract, engage, and convert customers both
+            automation—{''} designed to attract, engage, and convert customers both
             on the web and in your store.
           </p>
         </div>
@@ -145,7 +145,7 @@ export const ServicesOfferedSection = (): JSX.Element => {
                     {/* Card Content */}
                     <div className="flex flex-col items-start gap-6 max-[680px]:gap-4">
                       <div className="flex flex-col items-start gap-2">
-                        <h3 className="w-full max-w-[316px] text-2xl tracking-[-0.48px] leading-[33px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[1f2559] max-[1100px]:text-[22px] whitespace-nowrap max-[340px]:whitespace-normal">
+                        <h3 className="w-full max-w-[316px] text-2xl tracking-[-2%] leading-[33px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] max-[1100px]:text-[22px] whitespace-nowrap max-[340px]:whitespace-normal">
                           {service.title}
                         </h3>
                         <p className="w-full max-w-[316px] text-base tracking-[-0.16px] leading-[27px] [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A]">
@@ -180,13 +180,13 @@ export const ServicesOfferedSection = (): JSX.Element => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-6 max-[680px]:gap-4">
-            <Button className="h-[62px] px-8 py-[22px] bg-primary-colorsaccent rounded-[10px] text-neutral-colors100 shadow-general-shadows-shadow-04 font-text-single-200-medium">
+            <Button className="h-[62px] px-8 py-[22px] bg-primary-colorsaccent rounded-[10px] text-neutral-colors100  font-text-single-200-medium">
               👋 Book Your Free Strategy Call
             </Button>
 
             <Button
               variant="outline"
-              className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] text-neutral-colors600 font-text-single-200-regular"
+              className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_0px_#15229e0a] text-neutral-colors600 font-text-single-200-regular"
             >
               📋 View Packages &amp; Pricing
             </Button>

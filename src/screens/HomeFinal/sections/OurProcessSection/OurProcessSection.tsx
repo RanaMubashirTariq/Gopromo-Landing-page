@@ -35,18 +35,18 @@ export const OurProcessSection = (): JSX.Element => {
   return (
     <section className="flex flex-col items-center pt-16 pb-[150px] px-[115.5px]  max-[1300px]:px-[80px] max-[1100px]:px-[40px] max-[1000px]:px-[20px] max-[1100px]:pb-[100px] max-[1000px]:pt-[40px] max-[1000px]:pb-[50px] relative">
       <div className="flex flex-col items-center gap-10 max-w-6xl w-full">
-        <div className="flex flex-col items-center gap-4 text-center">
+        <div className="w-[496px] flex flex-col items-center gap-4 text-center max-[500px]:w-full">
           <div className="flex flex-col items-center gap-2 max-w-lg">
-            <span className="relative w-fit [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#F4263E] text-lg text-center tracking-[0] leading-[18px]">
+            <span className="relative w-full [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#F4263E] text-lg text-center tracking-[0] leading-[18px] max-[680px]:text-[16px] max-[680px]:leading-[16px]">
               Our Process
             </span>
 
-            <h2 className="[text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.76px] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] shadow-other-text max-[1000px]:text-[36px] max-[1000px]:leding-[44px]">
+            <h2 className="[text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.32px] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
               A simple, yet powerful path to predictable growth
             </h2>
           </div>
 
-          <p className="text-center [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A] text-base tracking-[-0.16px] leading-[27px] max-w-3xl ">
+          <p className=" text-center [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A] text-base tracking-[-0.16px] leading-[27px] max-w-3xl ">
             From strategy to scale, we handle every step so you can focus on
             serving your customers.
           </p>

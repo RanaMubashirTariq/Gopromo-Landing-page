@@ -12,12 +12,12 @@ export const AboutUsSection = (): JSX.Element => {
           <div className="flex flex-col items-start gap-4 relative self-stretch w-full">
             <div className="flex flex-col items-start gap-2 relative self-stretch w-full">
               <div className="inline-flex items-center gap-3.5 relative">
-                <span className="relative w-fit mt-[-1.00px] [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#F4263E] text-lg tracking-[0] leading-[18px] whitespace-nowrap max-[1000px]:text-[16px]">
+                <span className="relative w-full mt-[-1.00px] [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#F4263E] text-lg tracking-[0] leading-[18px] whitespace-nowrap max-[1000px]:text-[16px] max-[1000px]:leading-[16px]">
                   About Us
                 </span>
               </div>
 
-              <h2 className="w-full [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] shadow-other-text max-[1000px]:text-[36px]">
+              <h2 className="w-full [text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] tracking-[-0.32px] leading-[48px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] ">
                 Meet the Experts Powering Your Growth
               </h2>
             </div>
@@ -42,7 +42,7 @@ export const AboutUsSection = (): JSX.Element => {
               alt="Element"
               src={element}
             />
-            <div className="absolute w-[612px] h-[526px] max-[1300px]:w-[512px]  max-[1100px]:w-[380px] max-[1100px]:h-[450px] max-[900px]:w-[80%] max-[420px]:w-[85%] max-[900px]:h-[526px] max-[580px]:h-[470px] max-[480px]:h-[390px] max-[395px]:h-[360px]  top-0 left-[76px] max-[420px]:left-[50px] rounded-[40px] shadow-general-shadows-shadow-07 bg-[url(/image.png)] bg-cover bg-[50%_50%] border-0">
+            <div className="absolute w-[612px] h-[526px] max-[1300px]:w-[512px]  max-[1100px]:w-[400px] max-[1100px]:h-[450px] max-[900px]:w-[85%] max-[420px]:w-[85%] max-[900px]:h-[526px] max-[580px]:h-[470px] max-[480px]:h-[390px] max-[395px]:h-[360px]  top-0 left-[76px] max-[420px]:left-[50px] rounded-[40px] shadow-general-shadows-shadow-07 bg-[url(/image.png)] bg-cover bg-[50%_50%] border-0">
                 <img src={aboutImge} alt=""  className="w-full h-full object-conver rounded-[40px] max-[680px]:rounded-[20px]"/>
              </div>
           </div>

@@ -53,10 +53,10 @@ export const CaseStudiesSection = (): JSX.Element => {
       <div className="flex flex-col items-start gap-10 max-w-[1209px] w-full">
         <div className="flex items-end justify-between w-full max-[760px]:flex-col max-[760px]:items-start">
           <div className="flex flex-col gap-2">
-            <span className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#DE2A4A] text-lg leading-[18px]">
+            <span className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#DE2A4A] text-lg leading-[18px] max-[680px]:text-[16px] max-[680px]:leading-[16px]">
               Case Studies
             </span>
-            <h2 className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full shadow-other-text max-[1000px]:text-[36px]">
+            <h2 className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
               The results speak for themselves
             </h2>
           </div>
@@ -95,15 +95,15 @@ export const CaseStudiesSection = (): JSX.Element => {
                 </div>
               )}
 
-              <CardContent className="p-[20.62px] flex flex-col gap-[20.62px]">
+              <CardContent className="p-[20.62px] flex flex-col gap-[20.62px] max-[1100px]:p-[10px]">
                 <div className="flex flex-col gap-[10.31px]">
                   <span className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-primary-colorsaccent text-[11.6px] leading-[11.6px]">
                     {study.category}
                   </span>
-                  <h3 className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[15.5px] tracking-[-0.31px] leading-[21.3px]">
+                  <h3 className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[15.46px] tracking-[-0.32px] leading-[21.3px]">
                     {study.title}
                   </h3>
-                  <p className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A] text-[10.3px] tracking-[-0.10px] leading-[17.4px] ">
+                  <p className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A] text-[10.31px] tracking-[-0.16px] leading-[17.4px] ">
                     {study.description}
                   </p>
                 </div>
@@ -113,10 +113,10 @@ export const CaseStudiesSection = (): JSX.Element => {
                 <div className="flex items-start justify-between w-full">
                   {study.metrics.map((metric, idx) => (
                     <div key={idx} className="flex items-center gap-[10.31px]">
-                      <span className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-primary-colorsaccent text-[23.2px] tracking-[-0.46px] leading-[24.5px]">
+                      <span className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-primary-colorsaccent text-[23.2px] tracking-[-0.32px] leading-[24.5px]">
                         {metric.value}
                       </span>
-                      <span className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668a] text-[11.6px] tracking-[-0.12px] leading-[15.5px] whitespace-pre-line">
+                      <span className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668a] text-[11.6px] tracking-[-0.16px] leading-[15.5px] whitespace-pre-line">
                         {metric.description}
                       </span>
                     </div>
