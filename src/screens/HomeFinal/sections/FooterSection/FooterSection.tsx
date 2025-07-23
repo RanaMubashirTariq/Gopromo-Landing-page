@@ -149,9 +149,9 @@ export const FooterSection = (): JSX.Element => {
         </div>
 
         {/* Bottom section with social icons and copyright */}
-        <div className="flex items-center justify-between pt-10 pb-0 px-0 w-full border-t border-[#e7e8f1] max-[450px]:flex-col max-[450px]:items-start max-[450px]:gap-4 max-[450px]:pt-4">
+        <div className="flex items-center justify-between pt-10 pb-0 px-0 w-full border-t border-[#e7e8f1] max-[450px]:flex-col max-[450px]:items-center max-[450px]:gap-4 max-[450px]:pt-4">
           {/* Social media icons */}
-          <div className="flex items-center gap-8 justify-center h-[30px]">
+          <div className="flex items-center gap-8 justify-center h-[30px] max-[480px]:gap-5">
           {socialIcons.map((icon, index) => (
               <img
                 key={index}
