@@ -51,8 +51,8 @@ export const CaseStudiesSection = (): JSX.Element => {
   return (
     <section className="flex flex-col items-center py-[100px] px-[115.5px] w-full max-[1300px]:px-[80px] max-[1100px]:px-[40px] max-[1100px]:py[60px] max-[1000px]:py-[40px] max-[1000px]:px-[20px]">
       <div className="flex flex-col items-start gap-10 max-w-[1209px] w-full">
-        <div className="flex items-end justify-between w-full max-[760px]:flex-col max-[760px]:items-start">
-          <div className="flex flex-col gap-2">
+        <div className="flex items-end justify-between w-full max-[760px]:flex-col max-[760px]:items-center gap-6">
+          <div className="flex flex-col gap-2  max-[760px]:items-center">
             <span className="[font-family:Helvetica] font-normal text-[#DE2A4A] text-lg leading-[18px] max-[680px]:text-[16px] max-[680px]:leading-[16px]">
               Case Studies
             </span>
