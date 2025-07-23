@@ -35,7 +35,7 @@ export const MainContentSection = (): JSX.Element => {
     <section className="flex flex-col items-center gap-[41px] w-full relative py-[100px] px-[115.5px] max-[1300px]:px[80px] max-[1100px]:px-[40px] max-[1100px]:py-[60px]  max-[1000px]:py-[40px] max-[1000px]:px-[20px]">
       <div className="flex flex-col w-full max-w-[960px] items-center gap-4 relative">
         <div className="flex items-center self-stretch w-full flex-col gap-2 relative">
-          <h2 className="w-full [text-shadow:0px_2px_4px_0px_#DE2A4A0D] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.32px] leading-[48px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
+          <h2 className="w-full [text-shadow:0px_2px_4px_0px_#DE2A4A0D] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.32px] leading-[48px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
             <span className="text-[#1e2459] tracking-[-0.29px]">
               You&apos;re Missing Calls, Juggling Spreadsheets &amp;{"  "}
             </span>
@@ -67,7 +67,7 @@ export const MainContentSection = (): JSX.Element => {
               />
 
               <div className="flex flex-col items-center gap-2">
-                <h3 className="w-[316px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-2xl text-center tracking-[-2%] leading-[33px] max-[340px]:w-[100%]">
+                <h3 className="w-[316px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-2xl text-center tracking-[-2%] leading-[33px] max-[340px]:w-[100%] ">
                   {card.title}
                 </h3>
 

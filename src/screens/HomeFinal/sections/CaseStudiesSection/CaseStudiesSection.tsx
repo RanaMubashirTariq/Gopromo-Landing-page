@@ -56,7 +56,7 @@ export const CaseStudiesSection = (): JSX.Element => {
             <span className="[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#DE2A4A] text-lg leading-[18px] max-[680px]:text-[16px] max-[680px]:leading-[16px]">
               Case Studies
             </span>
-            <h2 className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
+            <h2 className="[font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
               The results speak for themselves
             </h2>
           </div>

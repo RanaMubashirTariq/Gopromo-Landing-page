@@ -41,7 +41,7 @@ export const OurProcessSection = (): JSX.Element => {
               Our Process
             </span>
 
-            <h2 className="[text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.32px] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
+            <h2 className="[text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-0.32px] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
               A simple, yet powerful path to predictable growth
             </h2>
           </div>

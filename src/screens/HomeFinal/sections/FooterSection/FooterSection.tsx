@@ -84,9 +84,9 @@ export const FooterSection = (): JSX.Element => {
 
             {/* Subscription form */}
             <div className="flex flex-col items-start gap-[18px]">
-              <div className="flex w-[350px] items-center justify-between pl-4 pr-2 py-2 bg-white rounded-[10px] overflow-hidden border border-solid border-[#faf9fb] shadow-other-input max-[450px]:w-full">
+              <div className="flex w-[350px] items-center justify-between pl-4 pr-2 py-2 bg-white rounded-[10px]  border border-solid border-[#faf9fb] shadow-other-input  max-[400px]:w-[335px] max-[360px]:w-[320px] max-[345px]:w-[300px] max-[322px]:w-[280px]  ">
                 <Input
-                  className="border-0 shadow-none p-0 h-auto font-paragraph-default text-neutral-colors500 placeholder:text-neutral-colors500 focus-visible:ring-0"
+                  className=" border-0 shadow-none p-0 h-auto text-base leading-[27px] tracking-[-1%] font-normal text-[#62668A] placeholder:text-[#62668A] focus-visible:ring-0 w-full"
                   type="email"
                   placeholder="Enter your email"
                 />

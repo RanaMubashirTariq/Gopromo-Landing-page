@@ -102,7 +102,7 @@ export const ServicesOfferedSection = (): JSX.Element => {
               Our Services
             </div>
 
-            <h2 className="w-full [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-2%] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
+            <h2 className="w-full [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-2%] leading-[48px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
               All the Tools to Win Locally  Online
             </h2>
           </div>

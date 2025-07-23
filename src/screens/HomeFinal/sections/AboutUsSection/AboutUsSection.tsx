@@ -8,7 +8,7 @@ export const AboutUsSection = (): JSX.Element => {
   return (
     <section className="flex flex-col items-center  relative bg-[#faf9fb] w-full pt-[116px] pb-[150px] px-[115.5px] max-[1300px]:px-[80px] max-[1100px]:px-[40px]  max-[1100px]:pt-[70px] max-[1100px]:pb-[100px] max-[1000px]:px-[20px] max-[1000px]:pt-[40px] max-[1000px]:pb-[60px]">
       <div className="flex items-center gap-[26px] w-full  relative max-[1100px]:items-start max-[900px]:flex-col">
-        <div className="flex flex-col w-full max-w-[488px] items-start gap-10 relative max-[900px]:max-w-[100%]">
+        <div className="flex flex-col w-full max-w-[488px] items-start gap-10 relative max-[900px]:max-w-[100%] max-[1100px]:pt-[20px]">
           <div className="flex flex-col items-start gap-4 relative self-stretch w-full">
             <div className="flex flex-col items-start gap-2 relative self-stretch w-full">
               <div className="inline-flex items-center gap-3.5 relative">
@@ -17,7 +17,7 @@ export const AboutUsSection = (): JSX.Element => {
                 </span>
               </div>
 
-              <h2 className="w-full [text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] tracking-[-0.32px] leading-[48px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] ">
+              <h2 className="w-full [text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] tracking-[-0.32px] leading-[48px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[1000px]:text-[28px] max-[1000px]:leading-[36px] ">
                 Meet the Experts Powering Your Growth
               </h2>
             </div>
@@ -35,15 +35,15 @@ export const AboutUsSection = (): JSX.Element => {
           </Button>
         </div>
 
-        <div className="relative w-full max-w-[694px] h-[526px] max-[900px]:max-w-[100%] max-[1100px]:h-[450px] max-[900px]:h-[526px] max-[580px]:h-[470px] max-[430px]:h-[370px]">
-          <div className="relative w-[757px] h-[526px] -left-8 max-[1300px]:w-[657px] max-[1100px]:w-[500px]  max-[900px]:w-[100%]">
+        <div className="relative w-full max-w-[694px] h-[526px] max-[900px]:max-w-[100%] max-[1100px]:h-[450px] max-[900px]:h-[526px] max-[560px]:h-[400px] max-[440px]:h-[350px]">
+          <div className="relative w-[757px] h-[526px]  max-[1300px]:w-[657px] max-[1100px]:w-[500px]  max-[900px]:w-[100%] max-[900px]:h-[526px] max-[560px]:h-[400px] max-[440px]:h-[350px]">
             <img
-              className="absolute w-[757px] h-[450px] top-10 left-0 max-[1300px]:w-[657px] max-[1100px]:w-[600px] max-[900px]:w-[100%] max-[900px]:left-8 max-[480px]:h-[350px] "
+              className="absolute w-[723px] h-[450.67px]  top-[47px] left-[-14px] max-[1300px]:left[-10px] max-[1300px]:top-[56px] max-[1100px]:w-[600px] max-[1100px]:top-[46px] max-[900px]:w-[100%] max-[900px]:left-[5px] max-[560px]:top-[10px]    max-[396px]:top-[20px] max-[346px]:top-[30px]    max-[560px]:h-[400px] max-[440px]:h-[300px]"
               alt="Element"
               src={element}
             />
-            <div className="absolute w-[612px] h-[526px] max-[1300px]:w-[512px]  max-[1100px]:w-[400px] max-[1100px]:h-[450px] max-[900px]:w-[85%] max-[420px]:w-[85%] max-[900px]:h-[526px] max-[580px]:h-[470px] max-[480px]:h-[390px] max-[395px]:h-[360px]  top-0 left-[76px] max-[420px]:left-[50px] rounded-[40px] shadow-general-shadows-shadow-07 bg-[url(/image.png)] bg-cover bg-[50%_50%] border-0">
-                <img src={aboutImge} alt=""  className="w-full h-full object-conver rounded-[40px] max-[680px]:rounded-[20px]"/>
+            <div className="absolute top-0 left-[44px] w-[612px] h-[526px] max-[1300px]:w-[560px]  max-[1100px]:w-[410px] max-[1100px]:h-[526px] max-[900px]:w-[90%]   max-[560px]:left-[40px] max-[560px]:w-[85%] max-[560px]:h-[400px]  max-[440px]:h-[300px]  max-[396px]:left-[30px]  ">
+                <img src={aboutImge} alt=""  className="w-full h-full object-cover rounded-[40px] max-[680px]:rounded-[20px]"/>
              </div>
           </div>
         </div>

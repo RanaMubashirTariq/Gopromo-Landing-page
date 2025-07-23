@@ -10,7 +10,7 @@ export const CallToActionSection = (): JSX.Element => {
     <section className="flex flex-col items-center py-[140px] w-full max-[1300px]:py-[100px] max-[1100px]:py-[60px] max-[1000px]:py-[40px] max-[1000px]:px-[20px] ">
       <div className="flex flex-col items-center gap-12 w-full">
         <div className="flex flex-col items-center gap-4">
-          <h2 className="w-[492px] [text-shadow:0px_2px_4px_#de294a0d] font-headings-heading-2 font-[number:var(--headings-heading-2-font-weight)] text-[#1e2459] text-[length:var(--headings-heading-2-font-size)] text-center tracking-[var(--headings-heading-2-letter-spacing)] leading-[var(--headings-heading-2-line-height)] [font-style:var(--headings-heading-2-font-style)] max-[680px]:w-full">
+          <h2 className="w-[492px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
             Need help with a project?
           </h2>
 

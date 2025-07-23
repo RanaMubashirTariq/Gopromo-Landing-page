@@ -65,7 +65,7 @@ export const HeroBannerSection = (): JSX.Element => {
   return (
     <section className="flex w-full items-start justify-center relative">
       <img
-        className="absolute w-[1624px] h-[690px] top-[80px] left-1/2 -translate-x-1/2 max-[1300px]:top-[110px] max-[1100px]:top-[180px] max-[1000px]:top-[40px] max-[560px]:top-[40px] max-[500px]:top-[60px] max-[413px]:top-[150px] max-[395px]:top-[195px] max-[365px]:top-[220px] max-[340px]:top-[270px]"
+        className="absolute overflow-hidden w-[1624px] h-[690px] top-[80px] left-[50%] -translate-x-1/2 max-[1300px]:top-[110px] max-[1100px]:top-[180px] max-[1000px]:top-[40px] max-[560px]:top-[40px] max-[500px]:top-[60px] max-[413px]:top-[150px] max-[395px]:top-[150px] max-[365px]:top-[170px] max-[340px]:top-[220px]"
         alt="Background element"
         src={element}
       />
@@ -80,7 +80,7 @@ export const HeroBannerSection = (): JSX.Element => {
                   Automation + Marketing Agency
                 </div>
 
-                <h1 className="w-full  font-bold text-[56px] tracking-[-2%] text-center leading-[68px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px]">
+                <h1 className="w-full  font-bold text-[56px] tracking-[-2%] text-center leading-[68px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
                   <span className="font-bold text-[#1F2559] tracking-[-2%] max-[1000px]:leading-[44px]">
                     Never Miss a Lead -{" "}
                   </span>
