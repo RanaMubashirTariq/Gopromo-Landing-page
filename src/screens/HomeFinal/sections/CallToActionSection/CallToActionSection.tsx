@@ -10,11 +10,11 @@ export const CallToActionSection = (): JSX.Element => {
     <section className="flex flex-col items-center py-[140px] w-full max-[1300px]:py-[100px] max-[1100px]:py-[60px] max-[1000px]:py-[40px] max-[1000px]:px-[20px] ">
       <div className="flex flex-col items-center gap-12 w-full">
         <div className="flex flex-col items-center gap-4">
-          <h2 className="w-[492px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
+          <h2 className="w-[492px] [font-family:Helvetica]  text-center font-bold text-[#1f2559] text-[38px] tracking-[-0.76px] leading-[48px] w-full  max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
             Need help with a project?
           </h2>
 
-          <p className="w-[488px] font-paragraph-default font-[number:var(--paragraph-default-font-weight)] text-neutral-colors500 text-[length:var(--paragraph-default-font-size)] text-center tracking-[var(--paragraph-default-letter-spacing)] leading-[var(--paragraph-default-line-height)] [font-style:var(--paragraph-default-font-style)] max-[680px]:w-full">
+          <p className="w-[488px] [font-family:Helvetica] font-[number:var(--paragraph-default-font-weight)] text-neutral-colors500 text-[length:var(--paragraph-default-font-size)] text-center tracking-[var(--paragraph-default-letter-spacing)] leading-[var(--paragraph-default-line-height)] [font-style:var(--paragraph-default-font-style)] max-[680px]:w-full">
             Ready to elevate your project? Let&apos;s connect and turn your
             vision into reality together!
           </p>
@@ -32,11 +32,11 @@ export const CallToActionSection = (): JSX.Element => {
 
               <div className="flex flex-col w-[372px] items-center gap-8 mt-4 max-[680px]:w-full">
                 <div className="flex items-center self-stretch w-full flex-col gap-2">
-                  <h4 className="self-stretch  font-headings-heading-h4 font-bold text-[#1e2459] text-[24px] text-center tracking-[-2%] leading-[33px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] ">
+                  <h4 className="self-stretch  font-headings-heading-h4 font-bold text-[#1e2459] text-[24px] text-center tracking-[-2%] leading-[33px] [font-family:Helvetica] ">
                     Get in touch today!
                   </h4>
 
-                  <p className="self-stretch text-center font-paragraph-default font-normal text-[#62668A] text-base tracking-[-1%] leading-[27px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica] ">
+                  <p className="self-stretch text-center font-paragraph-default font-normal text-[#62668A] text-base tracking-[-1%] leading-[27px] [font-family:Helvetica] ">
                     Discuss your project needs. We&apos;re ready to help you
                     achieve your goals with expert strategies and tailored
                     solutions. Let&apos;s make it happen!
@@ -61,11 +61,11 @@ export const CallToActionSection = (): JSX.Element => {
 
               <div className="flex flex-col w-[345px] items-center gap-8 mt-4 max-[680px]:w-full">
                 <div className="inline-flex items-center flex-col gap-2">
-                  <h4 className="self-stretch  font-headings-heading-h4 font-bold text-[#1e2459] text-[24px] text-center tracking-[-2%] leading-[33px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]">
+                  <h4 className="self-stretch  font-headings-heading-h4 font-bold text-[#1e2459] text-[24px] text-center tracking-[-2%] leading-[33px] [font-family:Helvetica]">
                     Browse our Packages
                   </h4>
 
-                  <p className="w-[345px] self-stretch text-center font-paragraph-default font-normal text-[#62668A] text-base tracking-[-1%] leading-[27px] [font-family:'Plus_Jakarta_Display-Bold',Helvetica]  max-[680px]:w-full">
+                  <p className="w-[345px] self-stretch text-center font-paragraph-default font-normal text-[#62668A] text-base tracking-[-1%] leading-[27px] [font-family:Helvetica]  max-[680px]:w-full">
                     Explore packages tailored to your needs and budget. Find the
                     perfect fit today!
                   </p>
@@ -73,7 +73,7 @@ export const CallToActionSection = (): JSX.Element => {
 
                 <Button
                   variant="outline"
-                  className="h-[50px] px-[22px] py-4 bg-white rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-general-shadows-shadow-02 [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#1e2459] text-base tracking-[-0.16px] leading-[22px]"
+                  className="h-[50px] px-[22px] py-4 bg-white rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-general-shadows-shadow-02 [font-family:Helvetica] font-normal text-[#1e2459] text-base tracking-[-0.16px] leading-[22px]"
                 >
                   Browse Packages
                 </Button>

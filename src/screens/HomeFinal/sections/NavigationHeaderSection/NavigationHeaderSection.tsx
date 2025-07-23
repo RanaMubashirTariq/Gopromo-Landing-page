@@ -77,8 +77,8 @@ export const NavigationHeaderSection = (): JSX.Element => {
                   <NavigationMenuLink
                     className={`inline-flex items-center justify-center gap-1.5 ${
                       activeLink === item.target
-                        ? "[font-family:'Plus_Jakarta_Display-Medium',Helvetica] font-medium text-[#f4263e]"
-                        : "[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#1f2559]"
+                        ? "[font-family:Helvetica] font-medium text-[#f4263e]"
+                        : "[font-family:Helvetica] font-normal text-[#1f2559]"
                     } text-base tracking-[-0.16px] leading-[22px]`}
                   >
                     {item.label}
@@ -91,7 +91,7 @@ export const NavigationHeaderSection = (): JSX.Element => {
 
         {/* CTA Button - visible above 1000px */}
         <div className="min-[1001px]:block max-[1000px]:hidden">
-          <Button className="h-12 px-[22px] py-4 bg-[#f4263e] rounded-[10px] text-neutral-colors100 shadow-[0px_2px_6px_#f4253d29] font-text-single-200-medium text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)]">
+          <Button className="h-12 px-[22px] py-4 bg-[#f4263e] rounded-[10px] text-neutral-colors100 shadow-[0px_2px_6px_#f4253d29] [font-family:Helvetica] text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)]">
             👋 Book Your Free Strategy Call
           </Button>
         </div>
@@ -119,8 +119,8 @@ export const NavigationHeaderSection = (): JSX.Element => {
                     <NavigationMenuLink
                       className={`inline-flex items-center justify-center gap-1.5 ${
                         activeLink === item.target
-                          ? "[font-family:'Plus_Jakarta_Display-Medium',Helvetica] font-medium text-[#f4263e]"
-                          : "[font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#1f2559]"
+                          ? "[font-family:Helvetica] font-medium text-[#f4263e]"
+                          : "[font-family:Helvetica] font-normal text-[#1f2559]"
                       } text-base tracking-[-0.16px] leading-[22px] w-full`}
                     >
                       {item.label}

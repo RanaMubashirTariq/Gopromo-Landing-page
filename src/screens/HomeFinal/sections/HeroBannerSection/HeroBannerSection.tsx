@@ -76,11 +76,11 @@ export const HeroBannerSection = (): JSX.Element => {
           <div className="flex-col w-full max-w-[1088px] items-center gap-8 max-[680px]:gap-4 flex relative z-10">
             <div className="inline-flex flex-col items-center gap-4 max-[1000px]:gap-2 relative">
               <div className="inline-flex items-center flex-col gap-2 relative ">
-                <div className="relative w-full mt-[-1.00px] [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#f4263E] text-lg text-center tracking-[0] leading-[18px] whitespace-nowrap max-[500px]:text-[16px] max-[500px]:leading-[16px]">
+                <div className="relative w-full mt-[-1.00px] [font-family:Helvetica] font-normal text-[#f4263E] text-lg text-center tracking-[0] leading-[18px] whitespace-nowrap max-[500px]:text-[16px] max-[500px]:leading-[16px]">
                   Automation + Marketing Agency
                 </div>
 
-                <h1 className="w-full  font-bold text-[56px] tracking-[-2%] text-center leading-[68px] relative [font-family:'Plus_Jakarta_Display-Bold',Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
+                <h1 className="w-full  font-bold text-[56px] tracking-[-2%] text-center leading-[68px] relative [font-family:Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
                   <span className="font-bold text-[#1F2559] tracking-[-2%] max-[1000px]:leading-[44px]">
                     Never Miss a Lead -{" "}
                   </span>
@@ -95,7 +95,7 @@ export const HeroBannerSection = (): JSX.Element => {
                 </h1>
               </div>
 
-              <p className="w-full max-w-[570px] text-base text-center tracking-[-0.16px] leading-[27px] relative [font-family:'Plus_Jakarta_Display-Regular',Helvetica] font-normal text-[#62668A]">
+              <p className="w-full max-w-[570px] text-base text-center tracking-[-0.16px] leading-[27px] relative [font-family:Helvetica] font-normal text-[#62668A]">
                 Custom landing pages, mobile apps, AI chatbots &amp; CRM that
                 capture, engage and convert every local lead—24/7, fully
                 automated.
@@ -103,13 +103,13 @@ export const HeroBannerSection = (): JSX.Element => {
             </div>
 
             <div className="flex flex-wrap items-start justify-center gap-6 relative">
-              <Button className="h-[62px] px-8 py-[22px] bg-primary-colorsaccent rounded-[10px] shadow-general-shadows-shadow-04 text-neutral-colors100 font-text-single-200-medium text-base max-[500px]:text-sm max-[500px]:px-4 max-[500px]:py-[10px]">
+              <Button className="h-[62px] px-8 py-[22px] bg-primary-colorsaccent rounded-[10px] shadow-general-shadows-shadow-04 text-neutral-colors100 [font-family:Helvetica] text-base max-[500px]:text-sm max-[500px]:px-4 max-[500px]:py-[10px]">
                 👋 Book Your Free Strategy Call
               </Button>
 
               <Button
                 variant="outline"
-                className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] text-neutral-colors600 font-text-single-200-regular text-base max-[500px]:text-sm max-[500px]:px-4 max-[500px]:py-[10px]"
+                className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] text-neutral-colors600 [font-family:Helvetica] text-base max-[500px]:text-sm max-[500px]:px-4 max-[500px]:py-[10px]"
               >
                 Our Services
               </Button>
