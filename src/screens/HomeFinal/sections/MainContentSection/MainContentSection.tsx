@@ -53,7 +53,7 @@ export const MainContentSection = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="flex  w-full  items-start justify-between gap-[30px] relative max-[1020px]:flex-wrap max-[1020px]:justify-center max-[850px]:gap-[10px] max-[680px]:gap-[20px]"> 
+      <div className="flex  w-full  items-start justify-between gap-[30px]   relative max-[1100px]:flex-wrap max-[1100px]:justify-center max-[850px]:gap-[10px] max-[680px]:gap-[20px]"> 
         {featureCards.map((card, index) => (
           <Card
             key={`feature-card-${index}`}

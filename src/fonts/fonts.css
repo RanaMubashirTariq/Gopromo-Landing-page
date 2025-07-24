@@ -1,17 +1,23 @@
 @font-face {
-    font-family: 'Plus Jakarta Sans';
-    src: url('./PlusJakartaSans-Regular.woff2') format('woff2'),
-         url('./PlusJakartaSans-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Plus Jakarta Sans';
-    src: url('./PlusJakartaSans-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+  font-family: 'Plus Jakarta Display';
+  src: url('/src/fonts/plus-jakarta-display-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Display';
+  src: url('/src/fonts/plus-jakarta-display-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Display';
+  src: url('/src/fonts/plus-jakarta-display-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
   /* Add more weights if needed */
   

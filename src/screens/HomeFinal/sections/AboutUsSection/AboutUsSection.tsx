@@ -35,14 +35,14 @@ export const AboutUsSection = (): JSX.Element => {
           </Button>
         </div>
 
-        <div className="relative w-full max-w-[694px] h-[526px] max-[900px]:max-w-[100%] max-[1100px]:h-[450px] max-[900px]:h-[526px] max-[560px]:h-[400px] max-[440px]:h-[350px]">
+        <div className="relative w-full max-w-[694px] h-[526px] max-[900px]:max-w-[100%] max-[1100px]:h-[480px] max-[900px]:h-[526px] max-[560px]:h-[400px] max-[440px]:h-[350px]">
           <div className="relative w-[757px] h-[526px]  max-[1300px]:w-[657px] max-[1100px]:w-[500px]  max-[900px]:w-[100%] max-[900px]:h-[526px] max-[560px]:h-[400px] max-[440px]:h-[350px]">
             <img
               className="absolute w-[723px] h-[450.67px]  top-[47px] left-[-14px] max-[1300px]:left[-10px] max-[1300px]:top-[56px] max-[1100px]:w-[600px] max-[1100px]:top-[46px] max-[900px]:w-[100%] max-[900px]:left-[5px] max-[560px]:top-[10px]    max-[396px]:top-[20px] max-[346px]:top-[30px]    max-[560px]:h-[400px] max-[440px]:h-[300px]"
               alt="Element"
               src={element}
             />
-            <div className="absolute top-0 left-[44px] w-[612px] h-[526px] max-[1300px]:w-[560px]  max-[1100px]:w-[410px] max-[1100px]:h-[526px] max-[900px]:w-[85%] max-[900px]:left-[70px]   max-[560px]:left-[40px] max-[560px]:w-[85%] max-[560px]:h-[400px]  max-[440px]:h-[300px]  max-[396px]:left-[30px]  ">
+            <div className="absolute top-0 left-[44px] w-[612px] h-[526px] max-[1300px]:w-[560px]  max-[1100px]:w-[410px] max-[1100px]:h-[450px] max-[900px]:left-[20px]  max-[900px]:w-[85%] max-[905px]:h-[526px] max-[900px]:left-[70px]   max-[560px]:left-[40px] max-[560px]:w-[85%] max-[560px]:h-[400px]  max-[440px]:h-[300px]  max-[396px]:left-[30px]  ">
                 <img src={aboutImge} alt=""  className="w-full h-full object-cover rounded-[40px] max-[680px]:rounded-[20px]"/>
              </div>
           </div>
