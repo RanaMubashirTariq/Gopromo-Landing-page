@@ -12,17 +12,17 @@ export const AboutUsSection = (): JSX.Element => {
           <div className="flex flex-col items-start gap-4 relative self-stretch w-full">
             <div className="flex flex-col items-start gap-2 relative self-stretch w-full max-[900px]:items-center">
               <div className="inline-flex items-center gap-3.5 relative">
-                <span className="relative w-full mt-[-1.00px] [font-family:Helvetica] font-normal text-[#F4263E] text-lg tracking-[0] leading-[18px] whitespace-nowrap max-[1000px]:text-[16px] max-[1000px]:leading-[16px]">
+                <span className="relative w-full mt-[-1.00px] [font-family:Plus_Jakarta_Display] font-normal text-[#F4263E] text-lg tracking-[0] leading-[18px] whitespace-nowrap max-[1000px]:text-[16px] max-[1000px]:leading-[16px]">
                   About Us
                 </span>
               </div>
 
-              <h2 className="w-full [text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] tracking-[-0.32px] leading-[48px] relative [font-family:Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[1000px]:text-[28px] max-[1000px]:leading-[36px] max-[900px]:text-center ">
+              <h2 className="w-full [text-shadow:0px_2px_4px_0px_#de294a0d] font-bold text-[#1f2559] text-[38px] tracking-[-0.32px] leading-[48px] relative [font-family:Plus_Jakarta_Display] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[1000px]:text-[28px] max-[1000px]:leading-[36px] max-[900px]:text-center ">
                 Meet the Experts Powering Your Growth
               </h2>
             </div>
 
-            <p className="self-stretch text-base tracking-[-0.16px] leading-[27px] relative [font-family:Helvetica] font-normal text-[#62668A] max-[900px]:text-center">
+            <p className="self-stretch text-base tracking-[-0.16px] leading-[27px] relative [font-family:Plus_Jakarta_Display] font-normal text-[#62668A] max-[900px]:text-center">
               We&apos;re a dedicated team of marketing strategists, AI
               engineers, and success specialists—relentlessly focused on turning
               every local search into a loyal customer. From geo‑targeted pages
@@ -30,7 +30,7 @@ export const AboutUsSection = (): JSX.Element => {
             </p>
           </div>
 
-          <Button className="h-[62px] px-8 py-[22px] bg-[#F4263E] rounded-[10px] shadow-general-shadows-shadow-04 text-neutral-colors100 [font-family:Helvetica] text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)] [font-style:var(--text-single-200-medium-font-style)]">
+          <Button className="h-[62px] px-8 py-[22px] bg-[#F4263E] rounded-[10px] shadow-general-shadows-shadow-04 text-neutral-colors100 [font-family:Plus_Jakarta_Display]  text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)] [font-style:var(--text-single-200-medium-font-style)]">
             Book A Growth Call
           </Button>
         </div>

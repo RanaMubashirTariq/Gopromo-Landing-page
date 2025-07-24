@@ -10,6 +10,7 @@ import { OurProcessSection } from "./sections/OurProcessSection";
 import { PressReleasesSection } from "./sections/PressReleasesSection/PressReleasesSection";
 import { ServicesOfferedSection } from "./sections/ServicesOfferedSection/ServicesOfferedSection";
 
+
 export const HomeFinal = (): JSX.Element => {
   return (
 <div className="flex flex-col w-full bg-white overflow-hidden mt-[120px] max-[1000px]:mt-[100px] max-[780px]:mt-[70px]">

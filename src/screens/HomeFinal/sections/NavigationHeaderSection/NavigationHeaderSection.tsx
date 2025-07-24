@@ -77,8 +77,8 @@ export const NavigationHeaderSection = (): JSX.Element => {
                   <NavigationMenuLink
                     className={`inline-flex items-center justify-center gap-1.5 ${
                       activeLink === item.target
-                        ? "[font-family:Helvetica] font-medium text-[#f4263e]"
-                        : "[font-family:Helvetica] font-normal text-[#1f2559]"
+                        ? "[font-family:Plus_Jakarta_Display] font-medium text-[#f4263e]"
+                        : "[font-family:Plus_Jakarta_Display] font-normal text-[#1f2559]"
                     } text-base tracking-[-0.16px] leading-[22px]`}
                   >
                     {item.label}
@@ -119,8 +119,8 @@ export const NavigationHeaderSection = (): JSX.Element => {
                     <NavigationMenuLink
                       className={`inline-flex items-center justify-center gap-1.5 ${
                         activeLink === item.target
-                          ? "[font-family:Helvetica] font-medium text-[#f4263e]"
-                          : "[font-family:Helvetica] font-normal text-[#1f2559]"
+                          ? "[font-family:Plus_Jakarta_Display] font-medium text-[#f4263e]"
+                          : "[font-family:Plus_Jakarta_Display] font-normal text-[#1e2459]"
                       } text-base tracking-[-0.16px] leading-[22px] w-full`}
                     >
                       {item.label}

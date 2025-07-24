@@ -98,16 +98,16 @@ export const ServicesOfferedSection = (): JSX.Element => {
         {/* Section Header */}
         <div className="flex flex-col w-full  items-center gap-4">
           <div className="inline-flex items-center flex-col gap-2">
-            <div className="relative w-full [font-family:Helvetica] font-normal text-[#f4263E] text-[18px] text-center tracking-[0] leading-[18px] whitespace-nowrap max-[680px]:text-[16px] max-[680px]:leading-[16px]  ">
+            <div className="relative w-full [font-family:Plus_Jakarta_Display] font-normal text-[#f4263E] text-[18px] text-center tracking-[0] leading-[18px] whitespace-nowrap max-[680px]:text-[16px] max-[680px]:leading-[16px]  ">
               Our Services
             </div>
 
-            <h2 className="w-full [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-2%] leading-[48px] [font-family:Helvetica] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
+            <h2 className="w-full [text-shadow:0px_2px_4px_#de294a0d] font-bold text-[#1f2559] text-[38px] text-center tracking-[-2%] leading-[48px] [font-family:Plus_Jakarta_Display] max-[1000px]:text-[36px] max-[1000px]:leading-[44px] max-[680px]:text-[28px] max-[680px]:leading-[36px]">
               All the Tools to Win Locally  Online
             </h2>
           </div>
 
-          <p className="w-full max-w-[620px] text-center [font-family:Helvetica] font-normal text-[#62668A] text-base tracking-[-0.16px] leading-[27px]">
+          <p className="w-full max-w-[620px] text-center [font-family:Plus_Jakarta_Display] font-normal text-[#62668A] text-base tracking-[-0.16px] leading-[27px]">
             One integrated suite-landing pages, apps, CRM, chatbots &amp; social
             automation—{''} designed to attract, engage, and convert customers both
             on the web and in your store.
@@ -145,10 +145,10 @@ export const ServicesOfferedSection = (): JSX.Element => {
                     {/* Card Content */}
                     <div className="flex flex-col items-start gap-6 max-[680px]:gap-4">
                       <div className="flex flex-col items-start gap-2">
-                        <h3 className="w-full max-w-[316px] text-2xl tracking-[-2%] leading-[33px] [font-family:Helvetica] font-bold text-[#1f2559] max-[1100px]:text-[22px] whitespace-nowrap max-[340px]:whitespace-normal">
+                        <h3 className="w-full max-w-[316px] text-2xl tracking-[-2%] leading-[33px] [font-family:Plus_Jakarta_Display] font-bold text-[#1f2559] max-[1100px]:text-[22px] whitespace-nowrap max-[340px]:whitespace-normal">
                           {service.title}
                         </h3>
-                        <p className="w-full max-w-[316px] text-base tracking-[-0.16px] leading-[27px] [font-family:Helvetica] font-normal text-[#62668A]">
+                        <p className="w-full max-w-[316px] text-base tracking-[-0.16px] leading-[27px] [font-family:Plus_Jakarta_Display] font-normal text-[#62668A]">
                           {service.description}
                         </p>
                       </div>
@@ -165,7 +165,7 @@ export const ServicesOfferedSection = (): JSX.Element => {
                               alt="Checkmark icon"
                               src={service.featureIcon}
                             />
-                            <span className="text-base tracking-[-0.16px] leading-[27px] whitespace-nowrap [font-family:Helvetica] font-normal text-[#62668A]">
+                            <span className="text-base tracking-[-0.16px] leading-[27px] whitespace-nowrap font-text-single-200-regular font-normal text-[#62668A]">
                               {feature}
                             </span>
                           </div>

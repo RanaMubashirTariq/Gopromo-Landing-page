@@ -1,5 +1,7 @@
+
 @tailwind components;
 @tailwind utilities;
+@import './src/fonts/plus-jakarta-display-regular.otf';
 
 @layer components {
   .all-\[unset\] {
@@ -18,19 +20,19 @@
   --general-shadows-shadow-06: 0px 10px 24px 0px rgba(27, 118, 255, 0.26);
   --general-shadows-shadow-07: 0px 24px 48px 0px rgba(27, 118, 255, 0.2);
   --general-shadows-shadow-09: 0px 10px 24px 0px rgba(255, 205, 29, 0.21);
-  --headings-heading-2-font-family: Helvetica;
+  --headings-heading-2-font-family: "Plus Jakarta Display";
   --headings-heading-2-font-size: 38px;
   --headings-heading-2-font-style: normal;
   --headings-heading-2-font-weight: 700;
   --headings-heading-2-letter-spacing: -0.76px;
   --headings-heading-2-line-height: 48px;
-  --headings-heading-h4-font-family:  Helvetica;
+  --headings-heading-h4-font-family: "Plus Jakarta Display";
   --headings-heading-h4-font-size: 24px;
   --headings-heading-h4-font-style: normal;
   --headings-heading-h4-font-weight: 700;
   --headings-heading-h4-letter-spacing: -0.48px;
   --headings-heading-h4-line-height: 33px;
-  --headings-heading-h7-font-family: Helvetica;
+  --headings-heading-h7-font-family: "Plus Jakarta Display";
   --headings-heading-h7-font-size: 18px;
   --headings-heading-h7-font-style: normal;
   --headings-heading-h7-font-weight: 400;
@@ -54,7 +56,7 @@
   --other-logo-icon: 0px 5.593238353729248px 11.186476707458496px 0px
     rgba(244, 38, 62, 0.21);
   --other-text: 0px 2px 4px 0px rgba(222, 42, 74, 0.05);
-  --paragraph-default-font-family:  Helvetica;
+  --paragraph-default-font-family: "Plus Jakarta Display";
   --paragraph-default-font-size: 16px;
   --paragraph-default-font-style: normal;
   --paragraph-default-font-weight: 400;
@@ -66,19 +68,19 @@
   --secondary-colors400: rgba(63, 220, 255, 1);
   --secondary-colors500: rgba(27, 118, 255, 1);
   --secondary-colors600: rgba(120, 44, 228, 1);
-  --text-single-100-regular-font-family: Helvetica;
+  --text-single-100-regular-font-family: "Plus Jakarta Display";
   --text-single-100-regular-font-size: 12px;
   --text-single-100-regular-font-style: normal;
   --text-single-100-regular-font-weight: 400;
   --text-single-100-regular-letter-spacing: -0.12px;
   --text-single-100-regular-line-height: 12px;
-  --text-single-200-medium-font-family:  Helvetica;
+  --text-single-200-medium-font-family: "Plus Jakarta Display";
   --text-single-200-medium-font-size: 16px;
   --text-single-200-medium-font-style: normal;
   --text-single-200-medium-font-weight: 500;
   --text-single-200-medium-letter-spacing: -0.16px;
   --text-single-200-medium-line-height: 22px;
-  --text-single-200-regular-font-family: Helvetica;
+  --text-single-200-regular-font-family: "Plus Jakarta Display";
   --text-single-200-regular-font-size: 16px;
   --text-single-200-regular-font-style: normal;
   --text-single-200-regular-font-weight: 400;
@@ -167,5 +169,4 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
-  
 }

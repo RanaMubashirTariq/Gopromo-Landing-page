@@ -76,7 +76,7 @@ export const FooterSection = (): JSX.Element => {
                   <img src={logo} alt="" />
               </div>
 
-              <p className="w-[350px] [font-family:Helvetica] text-neutral-colors500">
+              <p className="w-[350px] font-paragraph-default text-neutral-colors500">
                 Boost your brand the smart way. Gopromo makes digital promotions
                 simple, effective, and tailored to your goals.
               </p>
@@ -86,14 +86,14 @@ export const FooterSection = (): JSX.Element => {
             <div className="flex flex-col items-start gap-[18px]">
               <div className="flex w-[350px] items-center justify-between pl-4 pr-2 py-2 bg-white rounded-[10px]  border border-solid border-[#faf9fb] shadow-other-input  max-[400px]:w-[335px] max-[360px]:w-[320px] max-[345px]:w-[300px] max-[322px]:w-[280px]  ">
                 <Input
-                  className=" border-0 shadow-none [font-family:Helvetica] p-0 h-auto text-base leading-[27px] tracking-[-1%] font-normal text-[#62668A] placeholder:text-[#62668A] focus-visible:ring-0 w-full"
+                  className=" border-0 shadow-none font-paragraph-default p-0 h-auto text-base leading-[27px] tracking-[-1%] font-normal text-[#62668A] placeholder:text-[#62668A] focus-visible:ring-0 w-full"
                   type="email"
                   placeholder="Enter your email"
                 />
                 <div className="w-[204px] h-12 flex items-center justify-end max-[450px]:w-full" />
               </div>
 
-              <Button className="h-[62px] px-8 py-[22px] bg-[#f4263e] rounded-[10px] [font-family:'Plus_Jakarta_Display-Medium',Helvetica] font-medium text-white text-base tracking-[-0.16px] leading-[22px] shadow-[0px_2px_6px_#f4253d29] hover:bg-[#d61e35]">
+              <Button className="h-[62px] px-8 py-[22px] bg-[#f4263e] rounded-[10px] [font-family:Plus_Jakarta_Display] font-medium text-white text-base tracking-[-0.16px] leading-[22px] shadow-[0px_2px_6px_#f4253d29] hover:bg-[#d61e35]">
                 Subscribe
               </Button>
             </div>
@@ -105,7 +105,7 @@ export const FooterSection = (): JSX.Element => {
               {/* Company links column */}
               <div className="flex flex-col items-start gap-4">
                 <div className="flex flex-col items-start gap-4">
-                  <h3 className="[font-family:Helvetica] font-normal text-[#f4263e] text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap">
+                  <h3 className="[font-family:Plus_Jakarta_Display] font-normal text-[#f4263e] text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap">
                     Company
                   </h3>
 
@@ -113,7 +113,7 @@ export const FooterSection = (): JSX.Element => {
                     <a
                       key={index}
                       href={link.href}
-                      className="[font-family:Helvetica] font-normal text-neutral-colors500 text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap"
+                      className="[font-family:Plus_Jakarta_Display] font-normal text-neutral-colors500 text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap"
                     >
                       {link.title}
                     </a>
@@ -128,7 +128,7 @@ export const FooterSection = (): JSX.Element => {
                   className="flex flex-col items-start gap-4"
                 >
                   <div className="flex flex-col items-start gap-4">
-                    <h3 className="[font-family:Helvetica] font-normal text-[#f4263e] text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap">
+                    <h3 className="[font-family:Plus_Jakarta_Display] font-normal text-[#f4263e] text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap">
                       {category.title}
                     </h3>
 
@@ -136,7 +136,7 @@ export const FooterSection = (): JSX.Element => {
                       <a
                         key={linkIndex}
                         href="#"
-                        className="[font-family:Helvetica]  font-normal text-neutral-colors500 text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap"
+                        className="[font-family:Plus_Jakarta_Display]  font-normal text-neutral-colors500 text-base text-right tracking-[-0.16px] leading-[22px] whitespace-nowrap"
                       >
                         {link}
                       </a>
@@ -164,7 +164,7 @@ export const FooterSection = (): JSX.Element => {
 
           {/* Copyright */}
           <div className="flex items-center justify-end">
-            <p className="w-[250px] text-right [font-family:Helvetica] text-neutral-colors500 max-[480px]:w-full ">
+            <p className="w-[250px] text-right font-paragraph-default text-neutral-colors500 max-[480px]:w-full ">
               Copyright © GoPromo 2025
             </p>
           </div>
