@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
-import dashboard from "../../../../Images/single.svg";
-import double from "../../../../Images/double.svg";
+import dashboard from "../../../../Images/dashboard.svg";
 import element from "../../../../Images/element-3.svg";
 import icon from "../../../../Images/icon.svg";
 import logo1 from "../../../../Images/logo-1.svg";
