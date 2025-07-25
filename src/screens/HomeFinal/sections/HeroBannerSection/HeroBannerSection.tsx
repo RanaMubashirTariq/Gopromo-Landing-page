@@ -109,7 +109,7 @@ export const HeroBannerSection = (): JSX.Element => {
 
               <Button
                 variant="outline"
-                className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] text-neutral-colors600 font-text-single-200-medium text-base max-[500px]:text-sm max-[500px]:px-4 max-[500px]:py-[10px]"
+                className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] text-neutral-colors600 font-text-single-200-normal text-base max-[500px]:text-sm max-[500px]:px-4 max-[500px]:py-[10px]"
               >
                 Our Services
               </Button>

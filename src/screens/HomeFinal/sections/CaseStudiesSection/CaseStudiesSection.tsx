@@ -63,7 +63,7 @@ export const CaseStudiesSection = (): JSX.Element => {
 
           <Button
             variant="outline"
-            className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] [font-family:Plus_Jakarta_Display] text-[#15239E] max-[680px]:px[15px] max-[680px]:py-[12px] max-[680px]:h-[40px]"
+            className="h-[62px] px-8 py-[22px] text-[16px] leading-[22px] tracking-[-1%] font-normal bg-neutral-colors100 rounded-[10px] border-[0.5px] border-[#bdbecc] shadow-[0px_3px_10px_#15229e0a] [font-family:Plus_Jakarta_Display] text-[#15239E] max-[680px]:px[15px] max-[680px]:py-[12px] max-[680px]:h-[40px]"
           >
             View All
           </Button>

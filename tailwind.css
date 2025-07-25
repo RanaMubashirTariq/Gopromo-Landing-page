@@ -9,14 +9,14 @@
   font-family: 'Plus Jakarta Display';
   src: url('/src/fonts/plus-jakarta-display-medium.otf') format('opentype');
   font-weight: 500;
-  font-style: normal;
+  font-style: medium;
 }
 
 @font-face {
   font-family: 'Plus Jakarta Display';
   src: url('/src/fonts/plus-jakarta-display-bold.otf') format('opentype');
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
 }
 
 

@@ -145,7 +145,7 @@ export const ServicesOfferedSection = (): JSX.Element => {
                     {/* Card Content */}
                     <div className="flex flex-col items-start gap-6 max-[680px]:gap-4">
                       <div className="flex flex-col items-start gap-2">
-                        <h3 className="w-full max-w-[316px] text-2xl tracking-[-2%] leading-[33px] [font-family:Plus_Jakarta_Display] font-bold text-[#1f2559] max-[1100px]:text-[22px] whitespace-nowrap max-[340px]:whitespace-normal">
+                        <h3 className="w-full max-w-[316px] text-2xl tracking-[-2%] leading-[33px]   font-bold text-[#1f2559] max-[1100px]:text-[22px] whitespace-nowrap max-[340px]:whitespace-normal">
                           {service.title}
                         </h3>
                         <p className="w-full max-w-[316px] text-base tracking-[-0.16px] leading-[27px] [font-family:Plus_Jakarta_Display] font-normal text-[#62668A]">
@@ -180,13 +180,13 @@ export const ServicesOfferedSection = (): JSX.Element => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-6 max-[680px]:gap-4">
-            <Button className="h-[62px] px-8 py-[22px] bg-primary-colorsaccent rounded-[10px] text-neutral-colors100  font-text-single-200-medium">
+            <Button className="h-[62px] px-8 py-[22px] [font-family:Plus_Jakarta_Display] bg-primary-colorsaccent rounded-[10px] text-neutral-colors100  font-medium text-[16px] leading[22px] tracking-[-1%">
               👋 Book Your Free Strategy Call
             </Button>
 
             <Button
               variant="outline"
-              className="h-[62px] px-8 py-[22px] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_0px_#15229e0a] text-neutral-colors600 font-text-single-200-regular"
+              className="h-[62px] px-8 py-[22px] [font-family:Plus_Jakarta_Display] bg-neutral-colors100 rounded-[10px] border-[0.5px] border-solid border-[#bdbecc] shadow-[0px_3px_10px_0px_#15229e0a] text-neutral-colors600 font-normal text-[16px] tracking-[-1%] leading[22px]"
             >
               📋 View Packages &amp; Pricing
             </Button>

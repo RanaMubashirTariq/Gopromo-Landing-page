@@ -30,7 +30,7 @@ export const AboutUsSection = (): JSX.Element => {
             </p>
           </div>
 
-          <Button className="h-[62px] px-8 py-[22px] bg-[#F4263E] rounded-[10px] shadow-general-shadows-shadow-04 text-neutral-colors100 [font-family:Plus_Jakarta_Display]  text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)] [font-style:var(--text-single-200-medium-font-style)]">
+          <Button className="h-[62px] px-8 py-[22px] bg-[#F4263E] rounded-[10px]  text-neutral-colors100 [font-family:Plus_Jakarta_Display]  text-[16px] tracking-[-1%] leading-[22px] font-medium">
             Book A Growth Call
           </Button>
         </div>

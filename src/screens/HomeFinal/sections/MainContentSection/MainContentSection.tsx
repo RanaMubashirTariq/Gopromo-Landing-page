@@ -80,7 +80,7 @@ export const MainContentSection = (): JSX.Element => {
         ))}
       </div>
 
-      <Button className="h-[62px] px-8 py-[22px] bg-[#F4263E] rounded-[10px] shadow-[0px_2px_6px_0px_#f4253d29] [font-family:Plus_Jakarta_Display]  font-[number:var(--text-single-200-medium-font-weight)] text-neutral-colors100 text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)] max-[680px]:px-[10px] max-[680px]:py-[16px]">
+      <Button className="h-[62px] px-8 py-[22px] bg-[#F4263E] rounded-[10px] shadow-[0px_2px_6px_0px_#f4253d29] [font-family:Plus_Jakarta_Display]  font-medium text-neutral-colors100 text-[16px] tracking-[-0.16px] leading-[22px] max-[680px]:px-[10px] max-[680px]:py-[16px]">
         👋 Book Your Free Strategy Call
       </Button>
     </section>

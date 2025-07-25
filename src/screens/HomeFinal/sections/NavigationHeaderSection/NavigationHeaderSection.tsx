@@ -91,7 +91,7 @@ export const NavigationHeaderSection = (): JSX.Element => {
 
         {/* CTA Button - visible above 1000px */}
         <div className="min-[1001px]:block max-[1000px]:hidden">
-          <Button className="h-12 px-[22px] py-4 bg-[#f4263e] rounded-[10px] text-neutral-colors100 shadow-[0px_2px_6px_#f4253d29] [font-family:Helvetica] text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)]">
+          <Button className="h-12 px-[22px] [font-family:Plus_Jakarta_Display] py-4 bg-[#f4263e] rounded-[10px] text-neutral-colors100 shadow-[0px_2px_6px_#f4253d29]  text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)]">
             👋 Book Your Free Strategy Call
           </Button>
         </div>
@@ -128,7 +128,7 @@ export const NavigationHeaderSection = (): JSX.Element => {
                   </ScrollLink>
                 </NavigationMenuItem>
               ))}
-              <Button className="mt-4 h-12 px-[22px] py-4 bg-[#f4263e] rounded-[10px] text-neutral-colors100 shadow-[0px_2px_6px_#f4253d29] font-text-single-200-medium text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)]">
+              <Button className="mt-4 h-12 [font-family:Plus_Jakarta_Display] px-[22px] py-4 bg-[#f4263e] rounded-[10px] text-neutral-colors100 shadow-[0px_2px_6px_#f4253d29]   text-[length:var(--text-single-200-medium-font-size)] tracking-[var(--text-single-200-medium-letter-spacing)] leading-[var(--text-single-200-medium-line-height)]">
                 👋 Book Your Free Strategy Call
               </Button>
             </NavigationMenuList>
